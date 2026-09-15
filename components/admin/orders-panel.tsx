@@ -20,7 +20,7 @@ import { Trash2, Phone, MapPin, Receipt, ChevronDown, ChevronUp } from "lucide-r
 const STATUS_STYLES: Record<OrderStatus, string> = {
   چاودێڕییە: "bg-amber-100 text-amber-800 border-amber-200",
   دراوە: "bg-blue-100 text-blue-800 border-blue-200",
-  نێردراوە: "bg-purple-100 text-purple-800 border-purple-200",
+  نێردراوە: "bg-teal-100 text-teal-800 border-teal-200",
   تەواوبوو: "bg-emerald-100 text-emerald-800 border-emerald-200",
 }
 

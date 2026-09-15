@@ -1,6 +1,7 @@
 import { Analytics } from "@vercel/analytics/next"
 import type { Metadata, Viewport } from "next"
 import { Vazirmatn } from "next/font/google"
+import { Toaster } from "@/components/ui/sonner"
 import "./globals.css"
 
 const vazirmatn = Vazirmatn({
@@ -29,6 +30,7 @@ export default function RootLayout({
     <html lang="ckb" dir="rtl" className={vazirmatn.variable}>
       <body className="font-sans antialiased">
         {children}
+        <Toaster richColors position="top-center" dir="rtl" />
         {process.env.NODE_ENV === "production" && <Analytics />}
       </body>
     </html>
